@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8ecdf">
+  <title>Resume | Parth Sharma</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+  :root{--cream:#f8ecdf;--green:#294f3f;--gold:#d99531}*{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--green);font-family:'Poppins','Avenir Next',sans-serif}
+  .wrap{max-width:900px;margin:auto;padding:45px 35px 90px}.top{display:flex;justify-content:space-between;align-items:center;gap:15px}
+  a{color:inherit;text-decoration:none}.top a,.top button{font:inherit;background:none;color:inherit;border:1px solid var(--green);padding:10px 22px;border-radius:6px;cursor:pointer}
+  .top a:hover,.top button:hover{background:var(--green);color:var(--cream)}header{padding:70px 0 30px;border-bottom:1px solid #91a497}
+  h1{font-size:clamp(34px,5vw,57px);line-height:1.2;margin:0}header p{font-size:20px;margin-bottom:0}
+  section{padding-top:32px}h2{font-size:24px;font-weight:600;color:var(--green);border-bottom:1px solid #b5c1b5;padding-bottom:7px}
+  h3{font-size:17px;margin:18px 0 3px}p,li{line-height:1.7}.date{font-size:13px;color:#596d60;margin:2px 0 9px}
+  .skill-groups{display:grid;grid-template-columns:1fr 1fr;gap:8px 30px}.skill-groups p{margin:5px 0}
+  .note{margin-top:36px;font-size:13px;opacity:.75}
+  @media(max-width:650px){.wrap{padding:25px 20px 70px}header{padding:40px 0 20px}.skill-groups{grid-template-columns:1fr}}
+  @media print{body{background:white;color:#222}.wrap{padding:0;max-width:none}.top,.note{display:none}header{padding-top:0}section{padding-top:12px}h2{break-after:avoid}h3{break-after:avoid}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top"><a href="index.html">← Back to portfolio</a><button type="button" onclick="window.print()">Print / Save as PDF</button></div>
+    <header><h1>Parth Sharma</h1><p>Software Engineer &amp; Data Analyst</p></header>
+    <section><h2>Profile</h2><p>Software engineer and web developer interested in creating beautiful, scalable web and mobile applications. Bachelor's degree in Computer Science from California State University, Fullerton.</p></section>
+    <section><h2>Experience</h2>
+      <h3>Software Engineer · Life Stages</h3><p class="date">September 2023 – October 2024</p>
+      <h3>Web Developer · California State University, Fullerton</h3><p class="date">January 2021 – August 2023</p>
+      <h3>Data Analyst Intern · Sonarverse</h3><p class="date">January 2023 – May 2023</p>
+      <h3>Software Engineer · Tripcon Engineering</h3><p class="date">August 2019 – January 2021</p>
+    </section>
+    <section><h2>Education</h2><h3>Bachelor of Science in Computer Science</h3><p>California State University, Fullerton</p></section>
+    <section><h2>Skills</h2><div class="skill-groups">
+      <p><strong>Languages:</strong> Python, C++, Java, JavaScript, Swift, PHP, TypeScript</p>
+      <p><strong>Frontend:</strong> HTML, CSS, React, Bootstrap, WordPress</p>
+      <p><strong>Backend:</strong> Node.js, Express, MongoDB, MySQL, Firebase, FastAPI, Spring Boot, Django, SQL, Snowflake</p>
+      <p><strong>Other:</strong> Jira, GitHub, R, Qt, Docker, Postman</p>
+    </div></section>
+    <section><h2>Projects</h2>
+      <h3>Laguna</h3><p>Django-based full-stack social web application. Django, HTML, CSS, JavaScript.</p>
+      <h3>MovieNest</h3><p>Full-stack movie library management system. TypeScript, Next.js, PostgreSQL.</p>
+      <h3>YelpCamp</h3><p>Campground creation and review website. Node.js, Express, MongoDB.</p>
+    </section>
+    <p class="note">This on-site resume is reconstructed from the portfolio screenshots; add your actual resume PDF and detailed accomplishments before sharing it with employers.</p>
+  </div>
+</body>
+</html>
